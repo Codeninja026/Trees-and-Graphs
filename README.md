@@ -1,4 +1,4 @@
-# Binary_Trees
+# Trees and Graphs
 This repository is used to create tree,delete a particualar node,search a node,traverse etc.
 <br>
 This makes you better understanding in binary tree concept
