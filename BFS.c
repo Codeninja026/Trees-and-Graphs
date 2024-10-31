@@ -9,7 +9,7 @@ void BFS(int s,int n)
 	visted[s]=1;
 	p=deleteele();
 	if(p!=0)
-	printf("%d",p);
+	printf("%d ",p);
 	while(p!=0)
 	{
 		for(i=0;i<=n;i++)
