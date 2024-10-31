@@ -27,15 +27,15 @@ void add(int item)
 {
 	if(rear ==19)
 		printf("Queue full");
-		else
+	else{
+		if(rear == -1)
 		{
-			if(rear == -1)
-			{
-				queue[++rear]=item;
-				front++;
-			}
-			else
-				queue[++rear]=item;
+			queue[++rear]=item;
+			front++;
+		}
+		else{
+			queue[++rear]=item;
+		}
 		
 	}
 }
