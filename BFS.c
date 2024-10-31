@@ -20,7 +20,7 @@ void BFS(int s,int n)
 		}
 		p=deleteele();
 		if(p!=0)
-		printf("%d",p);
+		printf("%d ",p);
 	}
 }
 void add(int item)
@@ -69,6 +69,7 @@ int main()
 	printf("Enter the starting vertex: ");
 	scanf("%d",&v);
 	BFS(v,n);
+	printf("\n") ;
 		for(i=0;i<n;i++){
 		if(visted[i]==0){
 			flag++;
